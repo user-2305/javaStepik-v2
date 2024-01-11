@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainWindow">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="14" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="5" left="5" bottom="5" right="5"/>
+    <constraints>
+      <xy x="20" y="20" width="892" height="599"/>
+    </constraints>
+    <properties>
+      <name value="panel"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="ef81" class="javax.swing.JLabel" binding="label">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="582" height="17"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="18" style="1"/>
+          <text value="Введите данные для регистрации и нажмите кнопку &quot;Отправить&quot;"/>
+        </properties>
+      </component>
+      <component id="d1d95" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="7c9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ФИО"/>
+        </properties>
+      </component>
+      <component id="72923" class="javax.swing.JPasswordField" binding="passwordField1" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="e95b3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Образование"/>
+        </properties>
+      </component>
+      <component id="c7f29" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Пароль (не менее 8 символов)"/>
+        </properties>
+      </component>
+      <component id="71872" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Дошкольное"/>
+            <item value="Среднее"/>
+            <item value="Средне-специальное"/>
+            <item value="Высшее"/>
+            <item value="ЦПШ"/>
+          </model>
+        </properties>
+      </component>
+      <component id="82201" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Возраст"/>
+        </properties>
+      </component>
+      <component id="2714e" class="javax.swing.JSpinner" binding="spinner1" default-binding="true">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <clientProperties>
+          <html.disable class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+      </component>
+      <component id="f48f5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Сфера Ваших интересов"/>
+        </properties>
+      </component>
+      <component id="d0a5b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Пол"/>
+        </properties>
+      </component>
+      <component id="cf412" class="javax.swing.JSlider" binding="slider1" default-binding="true">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="8d34d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="4" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Почему Вы хотите участвовать в мероприятии?"/>
+        </properties>
+      </component>
+      <component id="63082" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Ваш текущий уровень знаний в этой области, %"/>
+        </properties>
+      </component>
+      <component id="ae69e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Повторите пароль"/>
+        </properties>
+      </component>
+      <component id="b39e1" class="javax.swing.JPasswordField" binding="passwordField2">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c0b28" class="javax.swing.JList" binding="list1" default-binding="true">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="4" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="136"/>
+          </grid>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Тема"/>
+            <item value="Спикеры"/>
+            <item value="Организатор"/>
+            <item value="Стоимость"/>
+            <item value="Обстановка"/>
+            <item value="Место проведения"/>
+            <item value="Формат"/>
+          </model>
+          <valueIsAdjusting value="false"/>
+          <verifyInputWhenFocusTarget value="true"/>
+          <visibleRowCount value="7"/>
+        </properties>
+      </component>
+      <component id="6ccd5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="194" height="136"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Что для Вас важно в мероприятии?"/>
+        </properties>
+      </component>
+      <component id="69e79" class="javax.swing.JButton" binding="button">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Отправить"/>
+        </properties>
+      </component>
+      <hspacer id="a6458">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="5" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="14" height="13"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="ec93c">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="5" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="14" height="11"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <component id="5da99" class="javax.swing.JRadioButton" binding="radioButton1">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value="Мужской"/>
+        </properties>
+      </component>
+      <component id="d0526" class="javax.swing.JRadioButton" binding="radioButton2">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Женский"/>
+        </properties>
+      </component>
+      <component id="b94d4" class="javax.swing.JCheckBox" binding="сheckBox1">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="32" height="41"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="IT"/>
+        </properties>
+      </component>
+      <component id="6bbb2" class="javax.swing.JCheckBox" binding="сheckBox2">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="83" height="41"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Маркетинг"/>
+        </properties>
+      </component>
+      <component id="8ffbf" class="javax.swing.JCheckBox" binding="сheckBox3">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="95" height="41"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Менеджмент"/>
+        </properties>
+      </component>
+      <component id="abdf8" class="javax.swing.JCheckBox" binding="сheckBox4">
+        <constraints>
+          <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="101" height="41"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Производство"/>
+        </properties>
+      </component>
+      <scrollpane id="33967">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="4" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <autoscrolls value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="c3d7b" class="javax.swing.JTextPane" binding="textPane1" default-binding="true">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="buttonGroup1">
+      <member id="5da99"/>
+      <member id="d0526"/>
+    </group>
+  </buttonGroups>
+</form>
